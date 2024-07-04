@@ -43,18 +43,18 @@ The repository currently includes the following configuration files:
 
 ## Copy the configuration files
 
-# zsh
+### zsh
 ```
 cp .zshrc ~/.zshrc
 ```
 
-# RStudio
+### RStudio
 ```
 mkdir -p ~/.config/rstudio
 cp rstudio-prefs.json ~/.config/rstudio/rstudio-prefs.json
 ```
 
-# VSCode
+### VSCode
 ```
 mkdir -p ~/.config/Code/User
 cp vscode/settings.json ~/.config/Code/User/settings.json
