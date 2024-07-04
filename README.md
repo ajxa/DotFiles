@@ -41,24 +41,24 @@ The repository currently includes the following configuration files:
    cd dotfiles
    ```
 
-## Setting up symlinks
+## Copy the configuration files
 
-### For zsh
+# zsh
 ```
-ln -s $(pwd)/.zshrc ~/.zshrc
+cp .zshrc ~/.zshrc
 ```
 
-### For RStudio
+# RStudio
 ```
 mkdir -p ~/.config/rstudio
-ln -s $(pwd)/rstudio-prefs.json ~/.config/rstudio/rstudio-prefs.json
+cp rstudio-prefs.json ~/.config/rstudio/rstudio-prefs.json
 ```
 
-### For VSCode
+# VSCode
 ```
 mkdir -p ~/.config/Code/User
-ln -s $(pwd)/vscode/settings.json ~/.config/Code/User/settings.json
-ln -s $(pwd)/vscode/keybindings.json ~/.config/Code/User/keybindings.json
+cp vscode/settings.json ~/.config/Code/User/settings.json
+cp vscode/keybindings.json ~/.config/Code/User/keybindings.json
 ```
 
-***Restart your applications to apply the new settings***.
+*** *You may need to restart your applications to apply the new settings* ***.
