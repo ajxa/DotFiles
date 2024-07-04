@@ -39,3 +39,26 @@ The repository currently includes the following configuration files:
    ```sh
    git clone https://github.com/yourusername/dotfiles.git
    cd dotfiles
+   ```
+
+2. **Set up symlinks:**
+
+# For zsh
+```
+ln -s $(pwd)/.zshrc ~/.zshrc
+```
+
+# For RStudio
+```
+mkdir -p ~/.config/rstudio
+ln -s $(pwd)/rstudio-prefs.json ~/.config/rstudio/rstudio-prefs.json
+```
+
+# For VSCode
+```
+mkdir -p ~/.config/Code/User
+ln -s $(pwd)/vscode/settings.json ~/.config/Code/User/settings.json
+ln -s $(pwd)/vscode/keybindings.json ~/.config/Code/User/keybindings.json
+```
+
+3. ***Restart your applications to apply the new settings***.
