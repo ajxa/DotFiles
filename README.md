@@ -29,6 +29,7 @@ The repository currently includes the following directories:
   - `.zshrc` - Configuration file for zsh
 - `RStudio` - RStudio config files 
   - `rstudio-prefs.json` - Preferences for RStudio
+  - `.Rprofile` - RStudio start-up file 
 - `VSCode` - VSCode config files
   - `settings.json` - User settings for VSCode
   - `keybindings.json` - Custom keybindings for VSCode
