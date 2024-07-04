@@ -1,0 +1,48 @@
+{
+    "restore_source_documents": false,
+    "help_font_size_points": 12,
+    "save_workspace": "never",
+    "load_workspace": false,
+    "initial_working_directory": "~",
+    "always_save_history": false,
+    "restore_last_project": false,
+    "show_indent_guides": true,
+    "rainbow_parentheses": true,
+    "auto_save_on_blur": true,
+    "default_encoding": "UTF-8",
+    "console_double_click_select": true,
+    "font_size_points": 14,
+    "editor_theme": "Vibrant Ink",
+    "panes": {
+        "quadrants": [
+            "Source",
+            "Console",
+            "TabSet1",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Connections",
+            "Build",
+            "VCS",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Files",
+            "Plots",
+            "Packages",
+            "Help",
+            "Viewer"
+        ],
+        "hiddenTabSet": [
+            "Tutorial"
+        ],
+        "console_left_on_top": false,
+        "console_right_on_top": true,
+        "additional_source_columns": 0
+    },
+    "spelling_dictionary_language": "en_GB",
+    "posix_terminal_shell": "bash",
+    "show_hidden_files": true
+}

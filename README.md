@@ -23,12 +23,13 @@ To get started with these dotfiles, you can clone the repository to your local m
 
 ## Contents
 
-The repository currently includes the following configuration files:
+The repository currently includes the following directories:
 
-- `.zshrc` - Configuration file for zsh
-- `RStudio` settings
+- `zsh` -   zsh shell config files
+  - `.zshrc` - Configuration file for zsh
+- `RStudio` - RStudio config files 
   - `rstudio-prefs.json` - Preferences for RStudio
-- `VSCode` settings
+- `VSCode` - VSCode config files
   - `settings.json` - User settings for VSCode
   - `keybindings.json` - Custom keybindings for VSCode
 
