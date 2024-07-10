@@ -59,8 +59,7 @@ cp rstudio-prefs.json ~/.config/rstudio/rstudio-prefs.json
 ### VSCode
 ```
 mkdir -p ~/.config/Code/User
-cp vscode/settings.json ~/.config/Code/User/settings.json
-cp vscode/keybindings.json ~/.config/Code/User/keybindings.json
+cp vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
 ```
 
 *** *You may need to restart your applications to apply the new settings* ***.
